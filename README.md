@@ -54,13 +54,13 @@ BeruVirusGuard <directory_to_scan> [signature_file] [quarantine_flag]
 ### Examples:
 ```bash
 # Scan a directory using default signatures
-./BeruVirusGuard "C:/Users/revon/Documents"
+./BeruVirusGuard "C:/Users/user/Documents"
 
 # Scan with a custom signature file
-./BeruVirusGuard "C:/Users/revon/Documents" "signatures.txt"
+./BeruVirusGuard "C:/Users/user/Documents" "signatures.txt"
 
 # Scan with quarantine enabled
-./BeruVirusGuard "C:/Users/revon/Documents" "signatures.txt" Q
+./BeruVirusGuard "C:/Users/user/Documents" "signatures.txt" Q
 ```
 
 ---
